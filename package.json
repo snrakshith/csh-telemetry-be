@@ -1,6 +1,6 @@
 {
   "name": "csh-chassis-framework",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Microservices Chassis framework for node.js",
   "main": "app.js",
   "type": "module",
@@ -10,8 +10,8 @@
   ],
   "scripts": {
     "start": "nodemon ./app.js",
-    "release:minor":"npm version minor -m \"Minor bump version to %s\"",
-    "release:patch":"npm version minor -m \"Patch bump version to %s\""
+    "release:minor": "npm version minor -m \"Minor bump version to %s\"",
+    "release:patch": "npm version minor -m \"Patch bump version to %s\""
   },
   "author": "Rakshith",
   "license": "MIT",
