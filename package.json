@@ -1,14 +1,15 @@
 {
-  "name": "cdc-mongodb",
-  "version": "1.0.0",
-  "description": "",
+  "name": "csh-chassis-framework",
+  "version": "0.0.1",
+  "description": "Microservices Chassis framework for node.js",
   "main": "app.js",
   "type": "module",
+  "keywords":["Microservices", "Chassis framework"],
   "scripts": {
     "start": "nodemon ./app.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Rakshith",
+  "license": "MIT",
   "dependencies": {
     "@opentelemetry/api": "^1.4.1",
     "@opentelemetry/node": "^0.24.0",
