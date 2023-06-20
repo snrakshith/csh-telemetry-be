@@ -10,8 +10,9 @@
   ],
   "scripts": {
     "start": "nodemon ./app.js",
-    "release:minor": "npm version minor -m \"Minor bump version to %s\"",
-    "release:patch": "npm version minor -m \"Patch bump version to %s\""
+    "changelog": "npx auto-changelog --package",
+    "release:minor": "npm version minor -m \"Minor bump version to %s\" && git add CHANGELOG.md",
+    "release:patch": "npm version patch -m \"Patch bump version to %s\" && git add CHANGELOG.md"
   },
   "author": "Rakshith",
   "license": "MIT",
