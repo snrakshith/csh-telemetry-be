@@ -1,4 +1,0 @@
-node your-app.js
-
-# Start Fluentd with the configuration file
-fluentd -c fluent.conf
