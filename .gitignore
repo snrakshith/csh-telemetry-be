@@ -9,3 +9,4 @@ zignore
 dump.rdb
 # VSCode
 .vscode
+.npmrc
