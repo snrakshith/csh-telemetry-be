@@ -1,0 +1,16 @@
+@opentelemetry/api
+@opentelemetry/core
+@opentelemetry/exporter-trace-otlp-http 
+@opentelemetry/exporter-metrics-otlp-http
+
+
+@opentelemetry/instrumentation-
+@opentelemetry/resources-
+@opentelemetry/context-
+
+Flow for decommisoning the repo or service in OSS world
+1.code freeze
+2.PR for only
+3.security-related fixes
+4.public archive
+5.will no longer accept new changes

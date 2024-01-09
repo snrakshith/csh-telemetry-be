@@ -1,0 +1,15 @@
+roles
+- Admin
+- Project Manger
+
+Feature
+Pages
+Page specific UI 
+
+4 Roadmaps
+
+Backend 
+Devops Baremetal monolitic
+Frontend Follow clean architecture
+Web
+Mobile
